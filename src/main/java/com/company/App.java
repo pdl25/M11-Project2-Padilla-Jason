@@ -56,12 +56,6 @@ public class App {
         theBatmanMovie.calculateProfit();
         director.setRoyalty(theBatmanMovie);
 
-        System.out.println("PA1 Earnings: " + p1.salary);
-        System.out.println("PA2 Earnings: " + p2.salary);
-        System.out.println("Movie Money Spent: " + theBatmanMovie.moneySpent);
-        System.out.println("Movie Profits: " + theBatmanMovie.profit);
-        System.out.println("Director Royalties: " + director.royalty);
-
         System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * *");
         System.out.println("*                                                     *");
         System.out.println("*                       MOVIE                         *");
@@ -95,10 +89,6 @@ public class App {
         System.out.println("Money Spent: " + theBatmanMovie.moneySpent);
         System.out.println("Profits: " + theBatmanMovie.profit);
         System.out.println("Director Royalties: " + director.royalty);
-//        System.out.println("*                                                     *");
-//
-//        System.out.println("*                                                     *");
-//        System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * *");
     }
 
 }
